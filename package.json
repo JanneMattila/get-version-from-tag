@@ -1,0 +1,24 @@
+{
+  "name": "get-version-from-tag",
+  "version": "1.0.0",
+  "description": "Get version number from GitHub release tag",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JanneMattila/get-version-from-tag.git"
+  },
+  "author": "Janne Mattila",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JanneMattila/get-version-from-tag/issues"
+  },
+  "homepage": "https://github.com/JanneMattila/get-version-from-tag#readme",
+  "dependencies": {
+    "@actions/core": "^1.4.0",
+    "@actions/github": "^5.0.0",
+    "@octokit/webhooks-definitions": "^3.67.3"
+  }
+}
