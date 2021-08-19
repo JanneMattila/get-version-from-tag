@@ -18,6 +18,7 @@ async function run() {
             tag = tag.substring(1);
         }
 
+        core.info(`Version: ${tag}`);
         core.setOutput("version", tag);
     } catch (error) {
         core.setFailed(error.message);
