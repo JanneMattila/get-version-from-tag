@@ -2,8 +2,10 @@
   "name": "get-version-from-tag",
   "version": "1.0.0",
   "description": "Get version number from GitHub release tag",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
+    "build": "tsc",
+    "package": "ncc build --source-map --license licenses.txt",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
