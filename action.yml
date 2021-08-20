@@ -1,6 +1,10 @@
 name: "Get version from tag"
 description: "Get version number from GitHub release tag name"
 
+branding:
+  icon: "git-branch"  
+  color: "blue"
+
 outputs:
   version:
     description: "Version number parsed from GitHub release tag name"
