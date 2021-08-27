@@ -32,6 +32,15 @@ jobs:
         echo $VERSION
 ```
 
-If you then create new GitHub Release with tag `0.0.1-demo.1`
-then above `get_version` will provide output value `version`
-which you can use in follow-up actions.
+If you then create new GitHub Release with tag `v0.0.1-demo.1`
+then above `get_version` will provide output value in `version`
+which you can use in follow-up actions. Task will remove prefix `v`
+if one is provided in the tag name.
+
+Examples tag names and outputs:
+
+| Tag name         | Version output  |
+| ---------------- | --------------- |
+| v1.2.3           | 1.2.3           |
+| 2.3.4            | 2.3.4           |
+| v0.0.1-preview.1 | 0.0.1-preview.1 |
