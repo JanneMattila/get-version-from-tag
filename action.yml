@@ -10,5 +10,5 @@ outputs:
     description: "Version number parsed from GitHub release tag name"
 
 runs:
-  using: "node12"
+  using: "node16"
   main: "dist/index.js"
