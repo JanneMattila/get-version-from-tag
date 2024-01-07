@@ -24,7 +24,7 @@ jobs:
     steps:
     - id: get_version
       name: Get version
-      uses: jannemattila/get-version-from-tag@v1
+      uses: jannemattila/get-version-from-tag@v2
 
     - name: Display version
       run: |
