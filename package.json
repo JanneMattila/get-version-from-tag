@@ -19,11 +19,11 @@
   },
   "homepage": "https://github.com/JanneMattila/get-version-from-tag#readme",
   "dependencies": {
-    "@actions/core": "^1.4.0",
-    "@actions/github": "^5.0.0",
+    "@actions/core": "^1.10.1",
+    "@actions/github": "^5.1.1",
     "@octokit/webhooks-definitions": "^3.67.3"
   },
   "devDependencies": {
-    "typescript": "^4.3.5"
+    "typescript": "^4.9.5"
   }
 }

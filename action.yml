@@ -2,7 +2,7 @@ name: "Get version from tag"
 description: "Get version number from GitHub release tag name"
 
 branding:
-  icon: "git-branch"  
+  icon: "git-branch"
   color: "blue"
 
 outputs:
@@ -10,5 +10,5 @@ outputs:
     description: "Version number parsed from GitHub release tag name"
 
 runs:
-  using: "node16"
+  using: "node20"
   main: "dist/index.js"
