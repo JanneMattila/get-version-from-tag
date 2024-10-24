@@ -24,7 +24,7 @@ jobs:
     steps:
     - id: get_version
       name: Get version
-      uses: jannemattila/get-version-from-tag@v3
+      uses: jannemattila/get-version-from-tag@v4
 
     - name: Display version
       run: |
@@ -44,3 +44,4 @@ Examples tag names and outputs:
 | v1.2.3           | 1.2.3           |
 | 2.3.4            | 2.3.4           |
 | v0.0.1-preview.1 | 0.0.1-preview.1 |
+| releases/v1.2.3  | 1.2.3           |
