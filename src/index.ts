@@ -14,6 +14,11 @@ async function run() {
             return;
         }
 
+        // Select the last element e.g., "release/v1.2.3" -> "v1.2.3"
+        const parts = tag.split("/");
+        tag = parts[parts.length - 1];
+
+        // Remove the "v" prefix if it exists
         if (tag.startsWith("v")) {
             tag = tag.substring(1);
         }
